@@ -30,7 +30,7 @@ void Insertion_Sort(int array[], int length)
 		{
 			key = array[j];
 			array[j] = array[j - 1];
-			array[j - 1] + key;
+			array[j - 1] = key;
 			j--;	
 		}
 	}
